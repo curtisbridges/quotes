@@ -1,0 +1,30 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "A random quote generator app -- including backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "nodemon src/server/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtisbridges/quotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtisbridges/quotes/issues"
+  },
+  "homepage": "https://github.com/curtisbridges/quotes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  },
+  "type": "module"
+}
